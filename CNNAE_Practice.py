@@ -95,7 +95,9 @@ for i in range(len(X)):
 #tf.disable_v2_behavior()
 
 
-### CNN autoencoder 
+#########################################
+# 3. CNN-AE construction
+#########################################
 
 act = 'tanh'
 input_img = Input(shape=(384,192,2))
@@ -112,10 +114,10 @@ x1 = Conv2D(4, (3,3),activation=act, padding='same')(x1)
 x1 = MaxPooling2D((2,2),padding='same')(x1)
 x1 = Conv2D(4, (3,3),activation=act, padding='same')(x1)
 x1 = MaxPooling2D((2,2),padding='same')(x1)
-
-
 x1 = Reshape([6*3*4])(x1)
+
 x_lat = Dense(2,activation=act)(x1)
+
 x1 = Dense(72,activation=act)(x1)
 x1 = Reshape([6,3,4])(x1)
 x1 = UpSampling2D((2,2))(x1)
@@ -135,7 +137,14 @@ autoencoder = Model(input_img, [x_final])
 
 autoencoder.compile(optimizer='adam', loss='mse')
 
-s
+
+
+#########################################
+# 4. Model training
+#########################################
+
+
+
 from keras.callbacks import ModelCheckpoint,EarlyStopping
 X_train, X_test  = train_test_split(X, test_size=0.2, random_state=None)
 model_cb=ModelCheckpoint('./Model.hdf5', monitor='val_loss',save_best_only=True,verbose=1)
