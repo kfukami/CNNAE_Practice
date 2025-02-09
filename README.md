@@ -2,6 +2,7 @@
 A sample code for Fukagata and Fukami (2025).
 
 Observable-AE.py
+
 2025 Kai Fukami (Tohoku University, kfukami1@tohoku.ac.jp)
 
 Authors: Koji Fukagata and Kai Fukami
