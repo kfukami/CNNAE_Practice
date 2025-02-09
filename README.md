@@ -1,21 +1,22 @@
 # CNNAE_Practice
 A sample code for Fukagata and Fukami (2025).
 
-Observable-AE.py
+# Reference
+Koji Fukagata and Kai Fukami, “Compressing fluid flows with nonlinear machine learning: mode decomposition, latent modeling, and flow control,” in Review
 
-2025 Kai Fukami (Tohoku University, kfukami1@tohoku.ac.jp)
+# Information
+Author: [Kai Fukami](https://www.kaif.mech.tohoku.ac.jp/) (Tohoku University)
 
-Authors: Koji Fukagata and Kai Fukami
+This repository contains
 
-We provide no guarantees for this code.  
+CNNAE_Practice.py
 
-Use as-is and for academic research use only; no commercial use allowed without permission. 
+Authors provide no guarantees for this code. Use as-is and for academic research use only; no commercial use allowed without permission. The code is written for educational clarity and not for speed.
 
-For citation, please use the reference below:
-
-Ref: K. Fukagata and K. Fukami,
-
-“Compressing fluid flows with nonlinear machine learning: mode decomposition, latent modeling, and flow control,” in Review
-
-The code is written for educational clarity and not for speed.
--- version 1: Feb 9, 2025
+# Requirements
+* Python 3.x  
+* keras  
+* tensorflow
+* sklearn
+* numpy
+* pandas
