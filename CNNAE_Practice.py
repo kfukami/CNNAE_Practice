@@ -1,4 +1,4 @@
-# Observable-AE.py
+# CNNAE_Practice.py
 # 2025 Kai Fukami (Tohoku University, kfukami1@tohoku.ac.jp)
 
 ## Authors:
