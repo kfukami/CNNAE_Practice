@@ -1,6 +1,8 @@
 # CNNAE_Practice
 A sample code for Fukagata and Fukami (2025).
 
+![Image](https://github.com/user-attachments/assets/45af070b-a236-48ed-8ea4-4e2f63ac332b)
+
 # Reference
 Koji Fukagata and Kai Fukami, “Compressing fluid flows with nonlinear machine learning: mode decomposition, latent modeling, and flow control,” in Review
 
