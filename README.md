@@ -4,7 +4,7 @@ A sample code for Fukagata and Fukami (2025).
 ![Image](https://github.com/user-attachments/assets/45af070b-a236-48ed-8ea4-4e2f63ac332b)
 
 # Reference
-Koji Fukagata and Kai Fukami, “Compressing fluid flows with nonlinear machine learning: mode decomposition, latent modeling, and flow control,” Fluid Dynamics Research (2025)
+Koji Fukagata and Kai Fukami, “Compressing fluid flows with nonlinear machine learning: mode decomposition, latent modeling, and flow control,” [Fluid Dynamics Research, 57, 041401 (invited), 2025](https://doi.org/10.1088/1873-7005/ade8a2)
 
 # Information
 Author: [Kai Fukami](https://www.kaif.mech.tohoku.ac.jp/) (Tohoku University)
